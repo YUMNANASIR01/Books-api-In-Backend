@@ -46,7 +46,7 @@ exports.updateAuthorValidateMiddleware = (req,res, next) =>{
 
 // deleteBookValidateMiddleware
 
-// ----------------------- update data ------------------
+// ---------------------- update data -----------------
 exports.deleteAuthorValidateMiddleware= (req,res, next) =>{
    try{
      deleteAuthorValidate.parse(req.params)
